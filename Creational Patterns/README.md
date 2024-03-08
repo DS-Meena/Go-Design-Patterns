@@ -14,3 +14,15 @@ Scenarios:
 Objects that have complex APIs, multiple constructor options, and several different possible representations.
 
 ![Builder Flowhcart](image.png)
+
+## Factory
+
+Purpose: 
+- Allows for the construction of objects when the types of those objects is not predetermined at runtime
+
+Scenarios:
+- Produces code that is more readable when there are multiple ways of creating a particular object
+- Situations where object creation needs to flexible and cannot be known beforehand
+
+![Factor Flowchart](image-1.png)
+
