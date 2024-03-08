@@ -21,3 +21,16 @@ Example -> patterns useful in object-oriented programming (OOP) may not work in 
 - No support for abstract classes
     - Affects patterns like Abstract Factory and Bridge
 
+## Design Pattern Categories
+
+| Creational | Structural | Behavioral |
+| --- | ---  | --- |
+| Abstract Factory | **Adapter** | Chain of Responsibility |
+| **Builder** | Bridge | Command |
+| **Factory** | Composite | Interpreter |
+| Lazy Initialization | Decorator | **Iterator** |
+| Multiton | **Facade** | Mediator |
+| Object Pool | Flyweight | Momento |
+| Protype | Proxy | **Observer** |
+| Singleton |  | Strategy |
+|  |  | Visitor |
