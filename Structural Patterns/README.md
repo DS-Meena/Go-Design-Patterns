@@ -1,6 +1,7 @@
 ## Structural Pattern
 
 ## Adapater
+The Adapter pattern allows the interface of an existing class to be used as another interface without modifying the source code.
 
 Purpose: 
 - Allows the interface of an existing subsystem or API to be used as another interface without modifying the code of the existing API
@@ -14,6 +15,7 @@ How to do:
 ![Adapter Pattern](image.png)
 
 ## Facade
+The Facade pattern is mainly used to simplify the interface to a more complex object **or** to provide a context-specific interface to a more generic API.
 
 Purpose:
 - Provide a simple, front-facing interface to a more complex system, library, or API
