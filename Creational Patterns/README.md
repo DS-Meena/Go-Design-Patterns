@@ -4,6 +4,8 @@ Creational design patterns deal with object creation mechanisms, trying to creat
 The most common types of creational design patterns include Factory Method, Abstract Factory, Builder, Prototype, and Singleton.
 
 ## Builder
+Builder simplifies the creation of complex objects that have many possible representations.
+
 Purpose 
 - *Encapsulates an object's construction process* along with specifying the various parts of a comlex API
 - Enables flexible creation of an object that can have many different representations
