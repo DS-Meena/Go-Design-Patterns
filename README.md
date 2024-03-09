@@ -34,3 +34,5 @@ Example -> patterns useful in object-oriented programming (OOP) may not work in 
 | Protype | Proxy | **Observer** |
 | Singleton |  | Strategy |
 |  |  | Visitor |
+
+[Course on LinkedIn Learning](https://www.linkedin.com/learning/go-design-patterns/) by Joe Marini
