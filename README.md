@@ -12,7 +12,7 @@ Example -> patterns useful in object-oriented programming (OOP) may not work in 
 
 - No support for traditional OOP classes like in C# or Java
     -   No static members or constructors - affects patterns like Singleton
-- No supporot for class-based inheritance or method overloading
+- No support for class-based inheritance or method overloading
     - Affects patterns like Visitor
 
 - No support for exceptions - error handling is via return values
