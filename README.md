@@ -8,7 +8,7 @@
 
 Example -> patterns useful in object-oriented programming (OOP) may not work in non-OOP languages.
 
-## Golang Features That Affect Design Patterns
+## Golang Features That Affect Design Patterns 😓
 
 - No support for traditional OOP classes like in C# or Java
     -   No static members or constructors - affects patterns like Singleton
@@ -21,9 +21,11 @@ Example -> patterns useful in object-oriented programming (OOP) may not work in 
 - No support for abstract classes
     - Affects patterns like Abstract Factory and Bridge
 
-## Design Pattern Categories
+But still the syntax of golang is much simpler than old languages like C++, that makes many design patterns much obvious.
 
-| Creational | Structural | Behavioral |
+## Design Pattern Categories 🐛
+
+| Creational 🏗️ | Structural 🏢 | Behavioral 🧑‍🦰 |
 | --- | ---  | --- |
 | Abstract Factory | **Adapter** | Chain of Responsibility |
 | **Builder** | Bridge | Command |
@@ -34,8 +36,6 @@ Example -> patterns useful in object-oriented programming (OOP) may not work in 
 | Protype | Proxy | **Observer** |
 | Singleton |  | Strategy |
 |  |  | Visitor |
-
-[Course on LinkedIn Learning](https://www.linkedin.com/learning/go-design-patterns/) by Joe Marini
 
 ## Troubleshooting
 
@@ -71,3 +71,9 @@ If you are using WSL, then by default WSL regenerates the `resolv.conf` file on 
     generateResolvConf = false
     `
 3. Save and exit the file.
+
+# References
+
+[Course on LinkedIn Learning](https://www.linkedin.com/learning/go-design-patterns/) by Joe Marini
+
+[Refactoring Guru](https://refactoring.guru/)
