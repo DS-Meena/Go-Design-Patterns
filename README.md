@@ -37,6 +37,53 @@ But still the syntax of golang is much simpler than old languages like C++, that
 | Singleton |  | Strategy |
 |  |  | Visitor |
 
+# Is-A and Has-A Relationships in Golang 🔗
+
+While Golang doesn't have traditional class-based inheritance, it still supports concepts similar to Is-A and Has-A relationships through its unique features. 🎭
+
+## Is-A Relationship 🧬
+
+Golang doesn't have inheritance, but it uses interfaces to achieve polymorphism, which can be seen as a form of Is-A relationship. 🔄
+
+```go
+type Vehicle interface {
+    Move()
+}
+
+type Car struct{}
+
+func (c Car) Move() {
+    fmt.Println("Car is moving")
+}
+
+// Car "is a" Vehicle because it implements the Vehicle interface 🚗
+```
+
+## Has-A Relationship 🧩
+
+Has-A relationships are implemented in Golang through composition, which is a key feature of the language. 🔧
+
+Composition in Go refers to the practice of building complex types by combining simpler ones. It's a way of structuring your code where you embed one type within another, allowing the outer type to use the methods and fields of the embedded type. 🏗️
+
+```go
+type Engine struct{}
+
+func (e Engine) Start() {
+    fmt.Println("Engine started")
+}
+
+type Car struct {
+    engine Engine  // Car "has an" Engine 🚙
+}
+
+func (c Car) StartCar() {
+    c.engine.Start()
+    fmt.Println("Car is ready to move")
+}
+```
+
+In Golang, composition is often preferred over inheritance, following the principle "composition over inheritance". This approach allows for more flexible and modular code design. 🧠💡
+
 ## Troubleshooting
 
 ### Not able to do ping 🤮
@@ -77,3 +124,7 @@ If you are using WSL, then by default WSL regenerates the `resolv.conf` file on 
 [Course on LinkedIn Learning](https://www.linkedin.com/learning/go-design-patterns/) by Joe Marini
 
 [Refactoring Guru](https://refactoring.guru/)
+
+## How to Run 
+
+Type `go run *.go` inside any folder. It will run all the files and you should not encounter any undefined struct error.
