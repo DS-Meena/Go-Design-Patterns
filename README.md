@@ -2,8 +2,8 @@
 
 ## What are design patterns?
 
-- Degn patterns identify solutions to common programming problems, but they are not actual code or algorithms themselves.
-- Pattesirns are a form of best practices for approaching a problem
+- Design patterns identify solutions to common programming problems, but they are not actual code or algorithms themselves.
+- Patterns are a form of best practices for approaching a problem
 - Usage of patterns can be significantly influenced by the language
 
 Example -> patterns useful in object-oriented programming (OOP) may not work in non-OOP languages.
@@ -36,6 +36,7 @@ But still the syntax of golang is much simpler than old languages like C++, that
 | Protype | **Proxy** | **Observer** |
 | **Singleton** |  | **Strategy** |
 |  |  | Visitor |
+| | | **Null Object**|
 
 # Is-A and Has-A Relationships in Golang 🔗
 
