@@ -8,3 +8,8 @@ This pattern is particularly useful when an object's behavior depends on its sta
 
 The operations allowed in state are different.
 
+## Benefits of using State Pattern
+
+- Simplifies the code by eliminating complex conditional statements
+- Makes it easier to add new states without changing existing state classes
+- Improves maintainability and readability of the code
