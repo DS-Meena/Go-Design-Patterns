@@ -1,18 +1,20 @@
-## Structural Pattern
+## Structural Design Patterns 🏗️
 
-## Adapater
-The Adapter pattern allows the interface of an existing class to be used as another interface without modifying the source code.
+Structural design patterns are concerned with how classes and objects are composed to form larger structures. They help ensure that when parts of a system change, the entire structure doesn't need to change. 🧱
 
-Purpose: 
-- Allows the interface of an existing subsystem or API to be used as another interface without modifying the code of the existing API
+Some common structural design patterns include:
 
-Scenarios:
-- Enables incompatible objects to work together without having to make changes to either one.
+- **Adapter:** Allows incompatible interfaces to work together. 🔌
+- **Bridge:** Separates an object's abstraction from its implementation. 🌉
+- **Composite:** Composes objects into tree structures to represent part-whole hierarchies. 🌳
+- **Decorator:** Adds new functionality to an object without altering its structure. 🎀
+- **Facade:** Provides a simplified interface to a complex subsystem. 🏢
+- **Flyweight:** Reduces the cost of creating and manipulating a large number of similar objects. 🪶
+- **Proxy:** Provides a surrogate or placeholder for another object to control access to it. 🕵️
 
-How to do: 
-- create a new struct that uses old struct and its receiver methods.
+These patterns focus on relationships between entities, making the design more flexible, efficient, and easier to understand and maintain. 🔧💡
 
-![Adapter Pattern](image.png)
+
 
 ## Facade
 The Facade pattern is mainly used to simplify the interface to a more complex object **or** to provide a context-specific interface to a more generic API.
