@@ -29,7 +29,7 @@ But still the syntax of golang is much simpler than old languages like C++, that
 | --- | ---  | --- |
 | **Abstract Factory** | **Adapter** | **Chain of Responsibility** |
 | **Builder** | Bridge | Command |
-| **Factory** | Composite | Interpreter |
+| **Factory** | **Composite** | Interpreter |
 | Lazy Initialization | **Decorator** | **Iterator** |
 | Multiton | **Facade** | Mediator |
 | Object Pool | Flyweight | Momento |
@@ -37,6 +37,7 @@ But still the syntax of golang is much simpler than old languages like C++, that
 | **Singleton** |  | **Strategy** |
 |  |  | Visitor |
 | | | **Null Object**|
+| | | **State** |
 
 # Is-A and Has-A Relationships in Golang 🔗
 
