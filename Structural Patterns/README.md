@@ -13,19 +13,3 @@ Some common structural design patterns include:
 - **Proxy:** Provides a surrogate or placeholder for another object to control access to it. 🕵️
 
 These patterns focus on relationships between entities, making the design more flexible, efficient, and easier to understand and maintain. 🔧💡
-
-## Facade
-The Facade pattern is mainly used to simplify the interface to a more complex object **or** to provide a context-specific interface to a more generic API.
-
-Purpose:
-- Provide a simple, front-facing interface to a more complex system, library, or API
-
-Scenarios:
-- Improve usability of a more complex API
-- Serve as a starting point for refactoring
-- Reduce tight coupling between parts of a system
-
-How to use:
-- Instead of directly interacting with the API, we use inbetween facade methods.
-
-![Facade Pattern](image-1.png)
