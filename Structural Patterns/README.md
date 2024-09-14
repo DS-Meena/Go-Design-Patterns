@@ -14,8 +14,6 @@ Some common structural design patterns include:
 
 These patterns focus on relationships between entities, making the design more flexible, efficient, and easier to understand and maintain. 🔧💡
 
-
-
 ## Facade
 The Facade pattern is mainly used to simplify the interface to a more complex object **or** to provide a context-specific interface to a more generic API.
 
