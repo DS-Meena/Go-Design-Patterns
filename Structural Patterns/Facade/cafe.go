@@ -33,7 +33,7 @@ func makeLatte(size float32, foam bool) {
 	// determine milk amount to use - 2oz for every 8oz size
 	milk := (size / 8.0) * 2.0
 	latte.useMilk(milk)
-	latte.doFoam(true)
+	latte.doFoam(foam)
 	latte.endCoffee()
 
 	fmt.Println("Latte is ready!")
