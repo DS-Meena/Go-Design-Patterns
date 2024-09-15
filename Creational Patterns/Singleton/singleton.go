@@ -1,6 +1,6 @@
 package main
 
-// TODO: use the "sync" package for the Once API
+// use the "sync" package for the Once API
 import (
 	"fmt"
 	"sync"
@@ -24,13 +24,13 @@ func (l *MyLogger) SetLogLevel(level int) {
 // the logger instance
 var logger *MyLogger
 
-// TODO: use the sync package to enforce goroutine safety
+// use the sync package to enforce goroutine safety
 var once sync.Once
 
-// TODO: the getLoggerInstance function provides global access to the
+// the getLoggerInstance function provides global access to the
 // logger class instance
 func getLoggerInstance() *MyLogger {
-	once.Do(func() {       // checking nil doesn't works with goroutines.
+	once.Do(func() { // checking nil doesn't works with goroutines.
 		fmt.Println("Creating Logger Instance")
 		logger = &MyLogger{}
 	})
