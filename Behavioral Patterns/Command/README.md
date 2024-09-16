@@ -26,6 +26,13 @@ Let's implement a simple text editor with undo and redo functionality using the 
 
 ![alt text](image.png)
 
+This UML diagram illustrates the relationships between the classes in the text editor example:
+
+- The `Command` interface defines the contract for all commands with `Execute()` and `Undo()` methods.
+- The `WriteCommand` implements the `Command` interface and has a reference to the `Document` it operates on.
+- The `Document` class represents the text content and provides methods to manipulate it.
+- The `TextEditor` class is the main controller, managing the document, command history, and redo stack. It uses the Command pattern to execute, undo, and redo operations.
+
 ```bash
 go run *.go
 Hello World!
