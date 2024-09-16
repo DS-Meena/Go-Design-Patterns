@@ -4,12 +4,12 @@ The Composite Design Pattern is a structural pattern that allows you to compose 
 
 Part-whole hierarchy - objects are composed of smaller parts, which can themselves be composed of even smaller parts.
 
-### When to Use 🤔
+## When to Use 🤔
 
 - When you want to represent part-whole hierarchies of objects
 - When you want clients to be able to ignore the difference between compositions of objects and individual objects
 
-### Example: File System 📁
+## Example: File System 📁
 
 Let's consider a file system as an example. A file system contains directories and files. A directory can contain files and other directories. This forms a tree-like structure, perfect for the Composite pattern.
 
