@@ -24,6 +24,8 @@ The Command pattern is particularly useful in scenarios where you need to mainta
 
 Let's implement a simple text editor with undo and redo functionality using the Command pattern:
 
+![alt text](image.png)
+
 ```bash
 go run *.go
 Hello World!

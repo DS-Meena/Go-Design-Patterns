@@ -27,6 +27,7 @@ func (t *TextEditor) Write(text string) {
 
 func (t *TextEditor) Undo() {
 	if len(t.history) > 0 {
+		// get last command
 		command := t.history[len(t.history)-1]
 		t.history = t.history[:len(t.history)-1]
 		command.Undo()
@@ -36,6 +37,7 @@ func (t *TextEditor) Undo() {
 
 func (t *TextEditor) Redo() {
 	if len(t.redoStack) > 0 {
+		// execute last command from redoStack
 		command := t.redoStack[len(t.redoStack)-1]
 		t.redoStack = t.redoStack[:len(t.redoStack)-1]
 		t.executeCommand(command)
