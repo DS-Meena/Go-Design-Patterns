@@ -4,16 +4,17 @@ import "fmt"
 
 // Iterate using a callback function
 func main() {
-	// TODO: use IterateBooks to iterate via a callback function
-	// lib.IterateBooks(myBookCallback)
+	// 1st way to iterate
+	// use IterateBooks to iterate via a callback function
+	lib.IterateBooks(myBookCallback)
 
-	// TODO: Use IterateBooks to iterate via anonymous function
-	// lib.IterateBooks(func (b Book) error {
-	// 	fmt.Println("Book author:", b.Author)
-	// 	return nil
-	// })
+	// Use IterateBooks to iterate via anonymous function
+	lib.IterateBooks(func(b Book) error {
+		fmt.Println("Book author:", b.Author)
+		return nil
+	})
 
-	// TODO: create a BookIterator
+	// 2nd Way to iterate
 	iter := lib.createIterator()
 	for iter.hasNext() {
 		book := iter.next()

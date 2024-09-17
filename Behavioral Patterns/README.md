@@ -1,18 +1,25 @@
-## Behavioral Patterns
+# Behavioral Design Patterns
 
-## Iterator
-Iterator is used to traverse a container and access the container's elements without exposing the underlying storage system of the container.
+Behavioral design patterns are concerned with algorithms and the assignment of responsibilities between objects. They describe not just patterns of objects or classes but also the patterns of communication between them. Here are some key behavioral patterns:
 
-Purpose: 
-- Describes a way of accessing the elements contained within an object without exposing the underlying implementation of the container
+### 1. Observer Pattern
 
-Scenarios:
-- Useful for objects that expose collections of elements
-- for example, a Library object that keeps track of publications such as books, magazines, and DVDs
+Defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
 
-![Iterator Pattern](image-1.png)
+### 2. Strategy Pattern
 
-**The "Pull" Model Iterator**
-With the pull-oriented interface, the consumer of the container data has control over when and how the data is accessed.
+Defines a family of algorithms, encapsulates each one, and makes them interchangeable. It lets the algorithm vary independently from clients that use it.
 
-![Pull Method](image-2.png)
+### 3. Command Pattern
+
+Encapsulates a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations.
+
+### 4. State Pattern
+
+Allows an object to alter its behavior when its internal state changes. The object will appear to change its class.
+
+### 5. Chain of Responsibility Pattern
+
+Passes requests along a chain of handlers. Upon receiving a request, each handler decides either to process the request or to pass it to the next handler in the chain.
+
+These patterns help in managing algorithms, relationships and responsibilities between objects, making the system more flexible and easier to maintain.
