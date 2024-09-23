@@ -2,6 +2,12 @@
 
 The Memento Design Pattern is a behavioral pattern that allows you to capture and restore an object's internal state without violating encapsulation. It's like creating a snapshot 📸 of an object's state that can be restored later.
 
+It involves three 3️⃣ main components:
+
+- **Originator**: This is the object that creates a momento to save its state and can also restore its state from a saved momento.
+- **Momento**: This is the object that stores the state of the originator. It should only be accessible by the originator.
+- **Caretaker**: This is the object (list📃or stack) that keeps track of and manages the momentos created by the originator.
+
 ## When to Use 🤔
 
 - When you need to implement undo/redo functionality 🔄
