@@ -169,6 +169,7 @@ This guide explains the process of moving a Linux distribution installed on Wind
 
    To set the default distribution, run `wsl --setdefault <distribution_name>`, e.g. `wsl --setdefault Ubuntu-22.04`
    
+7. To confirm, first there will be a ext4 disk created in your new drive. Second, observe the size of the ext4 folder, when you install packages and files on your wsl the size of ext4 (present on your new drive) will increase instead of old drive.
 
 Congratulations! You have successfully moved your WSL distribution (Ubuntu 22.04) to another drive. You can now start the distribution and continue using it on the new location.
 
